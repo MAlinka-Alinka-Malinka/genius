@@ -1,32 +1,52 @@
+@import './utils/fonts';
+@import './utils/variables';
+@import './base';
+@import './utils/texts.scss';
+@import './utils/utils';
+@import './utils/mixins';
 
-  @import './utils/fonts';
+@import './components/buttons';
+@import './components/carousel-button';
+@import './components/chef-card';
+@import './components/format-card';
+@import './components/input';
+@import './components/links';
+  
+  
+@import './layouts/advantages-section';
+@import './layouts/chefs-section';
+@import './layouts/contact-section';
+@import './layouts/container';
+@import './layouts/footer';
+@import './layouts/form-terms';
+@import './layouts/format-section';
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/modal';
+@import './layouts/section';
+@import './layouts/traditions-section';
+
+  
+
+  
+  
+ /* @import './utils/fonts';
   @import './utils/variables';
   @import './base';
   @import './utils/utils';
- 
-  
-  .section {
-    padding: 48px 0;
-  }
-  
-  .container {
-    width: 100%;
-    max-width: 1288px;
-    margin: 0 auto;
-  }
-  
   @import './components/buttons';
   @import './components/links';
-  @import './components/header';
-  @import './components/hero-section';
-  @import './components/advantages-section';
-  @import './components/traditions-section';
-  @import './components/chef-section';
-  @import './components/format-section';
+  @import './layouts/header';
+  @import './layouts/hero-section';
+  @import './layouts/advantages-section';
+  @import './layouts/traditions-section';
+  @import './layouts/chefs-section';
+  @import './layouts/format-section';
   @import './components/carousel';
   @import './components/contact-section';
   @import './components/footer';
   @import './components/modal';
   @import './components/form';
+  @import './layouts/section';*/
  
   
