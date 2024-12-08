@@ -19,7 +19,7 @@
       <div class="container">
         <div class="header__container">
           <nav class="header__nav">
-            <a href="./">
+            <a href="/">
               <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
             </a>
             <ul class="header__menu">
@@ -31,9 +31,17 @@
               <li><a class="link" href="#contact-section">Контакти</a></li>
             </ul>
           </nav>
-          <button class="button modal-btn-open" type="button">
+          <button class="header__button button modal-btn-open" type="button">
             Замовити дзвінок
           </button>
+          <button class="header__burger menu-btn-open" type="button">
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu">
+            <button class="mobile-menu__btn-close menu-btn-close" type="button">Close</button>
+          </div>
         </div>
       </div>
     </header>
@@ -43,9 +51,12 @@
           <h1 class="hero-section__title">
             <span class="text-brand">Сучасна</span> пекарня
           </h1>
+          <button class="hero-section__button button modal-btn-open" type="button">
+            Замовити дзвінок
+          </button>
         </div>
       </section>
-      <section class="advantages-section">
+     <section class="advantages-section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="advantages-section__list">
@@ -55,7 +66,7 @@
           </ul>
         </div>
       </section>
-      <section class="traditions-section section" id="traditions-section">
+     <section class="traditions-section section" id="traditions-section">
         <div class="container">
           <div class="traditions-section__container">
             <div class="traditions-section__content">
@@ -75,10 +86,12 @@
                 обслуговування!
               </p>
             </div>
-            <img
-              src="./images/blok2.svg"
+            <img 
+              class="traditions-section__image"
+              srcset="./images/baker-man.jpg 1x, ./images/baker-man@2.jpg 2x"
+              src="./images/baker-man.jpg"
               alt="Чоловік пекар дивиться на батони із посмішкою"
-            />
+/>
           </div>
         </div>
       </section>
@@ -132,7 +145,7 @@
           </ul>
         </div>
       </section>
-      <section class="formats-section section" id="formats-section">
+     <section class="formats-section section" id="formats-section">
         <div class="container">
           <h2 class="formats-section__title section__title section__title--centered">Формати</h2>
           <div class="formats-section__container">
@@ -161,7 +174,7 @@
               </li>
               <li class="formats-section__item">
                 <article class="format-card">
-                  <img class="format-card__image" src="images/horseshoe.jpg" alt="Horseshoe format">
+                  <img class="format-card__image" src="images/horseshoe-format.jpg" alt="Horseshoe format">
                   <h3 class="format-card__title" lang="en">Horseshoe</h3>
                   <div class="format-card__text">
                     <p>Площа: до 25 м2</p>
@@ -173,7 +186,7 @@
               </li>
               <li class="formats-section__item">
                 <article class="format-card">
-                  <img class="format-card__image" src="images/handlebar.jpg" alt="Handlebar format">
+                  <img class="format-card__image" src="images/handlebar-format.jpg" alt="Handlebar format">
                   <h3 class="format-card__title" lang="en">Handlebar</h3>
                   <div class="format-card__text">
                     <p>Площа: до 15 м2</p>
@@ -192,7 +205,7 @@
           </div>
         </div>
       </section>
-      <section class="contact-section section" id="contact-section">
+      <!--<section class="contact-section section" id="contact-section">
         <div class="container">
           <div class="contact-section__conteiner">
             <div class="contact-section__form">
@@ -254,8 +267,8 @@
           </div>
         </div>
       </section>
-    </main>
-    <footer class="footer">
+    </main>-->
+  <!--<footer class="footer">
       <div class="container">
         <div class="footer-container">
           <nav class="footer-nav">
@@ -317,8 +330,7 @@
           </address>
         </div>
       </div>
-    </footer>
-
+    </footer>-->
     <div class="backdrop">
       <div class="modal">
         <button class="modal__btn-close modal-btn-close" type="button">Close</button>
